@@ -1,0 +1,76 @@
+506 INFO: PyInstaller: 6.22.2, contrib hooks: 2026.7
+509 INFO: Python: 3.14.3
+614 INFO: Platform: Windows-11-10.0.26200-SP0
+614 INFO: Python environment: C:\Python314
+616 INFO: wrote E:\zuo\讨论\桌面助手\DesktopAssistant.spec
+622 INFO: Removing temporary files and cleaning cache in C:\Users\AI\AppData\Local\pyinstaller
+630 INFO: Module search paths (PYTHONPATH):
+['E:\\zuo\\讨论\\桌面助手',
+ 'C:\\Python314\\python314.zip',
+ 'C:\\Python314\\DLLs',
+ 'C:\\Python314\\Lib',
+ 'C:\\Python314',
+ 'C:\\Users\\AI\\AppData\\Roaming\\Python\\Python314\\site-packages',
+ 'C:\\Python314\\Lib\\site-packages',
+ 'C:\\Python314\\Lib\\site-packages\\win32',
+ 'C:\\Python314\\Lib\\site-packages\\win32\\lib',
+ 'C:\\Python314\\Lib\\site-packages\\pythonwin',
+ 'E:\\zuo\\讨论\\桌面助手']
+2460 INFO: checking Analysis
+2460 INFO: Building Analysis because Analysis-00.toc is non existent
+2460 INFO: Looking for Python shared library...
+2461 INFO: Using Python shared library: C:\Python314\python314.dll
+2461 INFO: Running Analysis Analysis-00.toc
+2461 INFO: Target bytecode optimization level: 0
+2461 INFO: Initializing module dependency graph...
+2462 INFO: Initializing module graph hook caches...
+2488 INFO: Analyzing modules for base_library.zip ...
+5040 INFO: Processing standard module hook 'hook-math.py' from 'C:\\Users\\AI\\AppData\\Roaming\\Python\\Python314\\site-packages\\PyInstaller\\hooks'
+6734 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\AI\\AppData\\Roaming\\Python\\Python314\\site-packages\\PyInstaller\\hooks'
+8467 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\AI\\AppData\\Roaming\\Python\\Python314\\site-packages\\PyInstaller\\hooks'
+12052 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Users\\AI\\AppData\\Roaming\\Python\\Python314\\site-packages\\PyInstaller\\hooks'
+12076 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\AI\\AppData\\Roaming\\Python\\Python314\\site-packages\\PyInstaller\\hooks'
+13042 INFO: Caching module dependency graph...
+13116 INFO: Analyzing E:\zuo\讨论\桌面助手\main.py
+13137 INFO: Processing standard module hook 'hook-PySide6.py' from 'C:\\Users\\AI\\AppData\\Roaming\\Python\\Python314\\site-packages\\PyInstaller\\hooks'
+13696 INFO: Processing standard module hook 'hook-shiboken6.py' from 'C:\\Users\\AI\\AppData\\Roaming\\Python\\Python314\\site-packages\\PyInstaller\\hooks'
+14152 INFO: Processing standard module hook 'hook-PySide6.QtNetwork.py' from 'C:\\Users\\AI\\AppData\\Roaming\\Python\\Python314\\site-packages\\PyInstaller\\hooks'
+22475 INFO: Processing standard module hook 'hook-PySide6.QtCore.py' from 'C:\\Users\\AI\\AppData\\Roaming\\Python\\Python314\\site-packages\\PyInstaller\\hooks'
+36357 INFO: Processing standard module hook 'hook-PySide6.QtWidgets.py' from 'C:\\Users\\AI\\AppData\\Roaming\\Python\\Python314\\site-packages\\PyInstaller\\hooks'
+50896 INFO: Processing standard module hook 'hook-PySide6.QtGui.py' from 'C:\\Users\\AI\\AppData\\Roaming\\Python\\Python314\\site-packages\\PyInstaller\\hooks'
+183795 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Users\\AI\\AppData\\Roaming\\Python\\Python314\\site-packages\\PyInstaller\\hooks'
+183809 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Users\\AI\\AppData\\Roaming\\Python\\Python314\\site-packages\\PyInstaller\\hooks'
+183894 INFO: Processing module hooks (post-graph stage)...
+183923 INFO: Performing binary vs. data reclassification (120 entries)
+184113 INFO: Looking for ctypes DLLs
+184127 INFO: Analyzing run-time hooks ...
+184130 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\AI\\AppData\\Roaming\\Python\\Python314\\site-packages\\PyInstaller\\hooks\\rthooks'
+184137 INFO: Including run-time hook 'pyi_rth_pyside6.py' from 'C:\\Users\\AI\\AppData\\Roaming\\Python\\Python314\\site-packages\\PyInstaller\\hooks\\rthooks'
+184141 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\AI\\AppData\\Roaming\\Python\\Python314\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+184147 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\AI\\AppData\\Roaming\\Python\\Python314\\site-packages\\PyInstaller\\hooks'
+184171 INFO: Creating base_library.zip...
+184229 INFO: Looking for dynamic libraries
+184905 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Users\\AI\\AppData\\Roaming\\Python\\Python314\\site-packages\\shiboken6']
+184906 INFO: Extra DLL search directories (PATH): ['C:\\Users\\AI\\AppData\\Roaming\\Python\\Python314\\site-packages\\PySide6']
+187826 INFO: Warnings written to E:\zuo\讨论\桌面助手\build\DesktopAssistant\warn-DesktopAssistant.txt
+187882 INFO: Graph cross-reference written to E:\zuo\讨论\桌面助手\build\DesktopAssistant\xref-DesktopAssistant.html
+187933 INFO: checking PYZ
+187934 INFO: Building PYZ because PYZ-00.toc is non existent
+187934 INFO: Building PYZ (ZlibArchive) E:\zuo\讨论\桌面助手\build\DesktopAssistant\PYZ-00.pyz
+188110 INFO: Building PYZ (ZlibArchive) E:\zuo\讨论\桌面助手\build\DesktopAssistant\PYZ-00.pyz completed successfully.
+188141 INFO: checking PKG
+188141 INFO: Building PKG because PKG-00.toc is non existent
+188141 INFO: Building PKG (CArchive) DesktopAssistant.pkg
+195488 INFO: Building PKG (CArchive) DesktopAssistant.pkg completed successfully.
+195498 INFO: Bootloader C:\Users\AI\AppData\Roaming\Python\Python314\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+195498 INFO: checking EXE
+195499 INFO: Building EXE because EXE-00.toc is non existent
+195499 INFO: Building EXE from EXE-00.toc
+195499 INFO: Copying bootloader EXE to E:\zuo\讨论\桌面助手\dist\DesktopAssistant.exe
+195513 INFO: Copying icon to EXE
+195550 INFO: Copying 0 resources to EXE
+195550 INFO: Embedding manifest in EXE
+195583 INFO: Appending PKG archive to EXE
+196137 INFO: Fixing EXE headers
+197266 INFO: Building EXE from EXE-00.toc completed successfully.
+197284 INFO: Build complete! The results are available in: E:\zuo\讨论\桌面助手\dist

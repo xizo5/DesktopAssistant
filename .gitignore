@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+desktop_assistant.json
+*_output.txt
+push_to_github.cmd
+
+# PyInstaller 打包产物
+build/
+dist/
+*.spec
+assets/logo.ico
